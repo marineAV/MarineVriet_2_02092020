@@ -155,6 +155,24 @@ header{
     border-bottom-right-radius: 10px;
     border: none;
 }
+@media screen and (max-width: 600px){
+    .research{
+        width: 170px;
+        height: 30px;
+    }
+    .logosearchbox{
+        width: 35px;
+        height: 33px;
+    }
+    .logosearch{
+        font-size: 16px;
+    }
+    .btn{
+        width: 90px;
+        height: 31px;
+        font-size: 12px;
+    }
+}
 
     /*filters*/
 .filtersbox{
@@ -478,5 +496,7 @@ footer{
     footer{
         display: flex;
         flex-direction: column;
+        font-size: 12px;
+        padding-right: 0;
     }
 }
