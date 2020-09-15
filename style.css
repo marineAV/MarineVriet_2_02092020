@@ -701,7 +701,7 @@ h3{
         width: 280px;
         justify-self: center;
     }
-    .picvitle3{
+    .picAndTitle3{
         grid-column: 3/4;
         grid-row: 1/2;
         border-radius: 20px 20px 20px 20px;
